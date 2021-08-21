@@ -1,8 +1,8 @@
 library todo_detail_state;
 
 import 'package:built_value/built_value.dart';
-import 'package:deer/domain/entity/todo_entity.dart';
-import 'package:deer/domain/interactor/task.dart';
+import 'package:beetask/domain/entity/todo_entity.dart';
+import 'package:beetask/domain/interactor/task.dart';
 
 part 'todo_detail_state.g.dart';
 
