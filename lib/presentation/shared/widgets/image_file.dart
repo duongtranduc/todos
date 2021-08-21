@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:deer/presentation/shared/resources.dart';
+import 'package:beetask/presentation/shared/resources.dart';
 import 'package:flutter/material.dart';
 
 Widget imageFile(File file) {

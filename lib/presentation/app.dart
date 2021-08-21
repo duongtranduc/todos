@@ -1,6 +1,6 @@
-import 'package:deer/dependencies.dart';
-import 'package:deer/presentation/colorful_app.dart';
-import 'package:deer/presentation/screen/home/home_screen.dart';
+import 'package:beetask/dependencies.dart';
+import 'package:beetask/presentation/colorful_app.dart';
+import 'package:beetask/presentation/screen/home/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 
@@ -20,7 +20,7 @@ class App extends StatelessWidget {
     _notificationManager = notificationManager;
   }
 
-  final String _title = 'Deer';
+  final String _title = 'Bee Tasks';
 
   // This widget is the root of your application.
   @override

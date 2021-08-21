@@ -1,16 +1,16 @@
 import 'dart:io';
 
-import 'package:deer/domain/entity/todo_entity.dart';
-import 'package:deer/presentation/colorful_app.dart';
-import 'package:deer/presentation/screen/todo_edit/todo_edit_screen.dart';
-import 'package:deer/presentation/shared/helper/date_formatter.dart';
-import 'package:deer/presentation/shared/widgets/box.dart';
-import 'package:deer/presentation/shared/widgets/bullet_list.dart';
-import 'package:deer/presentation/shared/widgets/buttons.dart';
-import 'package:deer/presentation/shared/widgets/image_file.dart';
-import 'package:deer/presentation/shared/widgets/todo_avatar.dart';
-import 'package:deer/utils/notification_utils.dart';
-import 'package:deer/utils/string_utils.dart';
+import 'package:beetask/domain/entity/todo_entity.dart';
+import 'package:beetask/presentation/colorful_app.dart';
+import 'package:beetask/presentation/screen/todo_edit/todo_edit_screen.dart';
+import 'package:beetask/presentation/shared/helper/date_formatter.dart';
+import 'package:beetask/presentation/shared/widgets/box.dart';
+import 'package:beetask/presentation/shared/widgets/bullet_list.dart';
+import 'package:beetask/presentation/shared/widgets/buttons.dart';
+import 'package:beetask/presentation/shared/widgets/image_file.dart';
+import 'package:beetask/presentation/shared/widgets/todo_avatar.dart';
+import 'package:beetask/utils/notification_utils.dart';
+import 'package:beetask/utils/string_utils.dart';
 import 'package:flutter/material.dart';
 import 'package:link_text/link_text.dart';
 import 'package:photo_view/photo_view.dart';

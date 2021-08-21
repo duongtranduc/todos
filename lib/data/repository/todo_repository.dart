@@ -1,6 +1,6 @@
-import 'package:deer/data/dao/todo_dao.dart';
-import 'package:deer/domain/entity/todo_entity.dart';
-import 'package:deer/domain/interactor/task.dart';
+import 'package:beetask/data/dao/todo_dao.dart';
+import 'package:beetask/domain/entity/todo_entity.dart';
+import 'package:beetask/domain/interactor/task.dart';
 import 'package:flutter/foundation.dart';
 
 class TodoRepository {

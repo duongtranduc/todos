@@ -1,6 +1,6 @@
-import 'package:deer/domain/entity/todo_entity.dart';
-import 'package:deer/presentation/app.dart';
-import 'package:deer/utils/string_utils.dart';
+import 'package:beetask/domain/entity/todo_entity.dart';
+import 'package:beetask/presentation/app.dart';
+import 'package:beetask/utils/string_utils.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 
 const String _kNotificationChannelId = 'ScheduledNotification';

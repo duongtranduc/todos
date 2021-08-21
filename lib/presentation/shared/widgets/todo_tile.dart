@@ -1,6 +1,6 @@
-import 'package:deer/domain/entity/todo_entity.dart';
-import 'package:deer/presentation/colorful_app.dart';
-import 'package:deer/presentation/shared/widgets/todo_avatar.dart';
+import 'package:beetask/domain/entity/todo_entity.dart';
+import 'package:beetask/presentation/colorful_app.dart';
+import 'package:beetask/presentation/shared/widgets/todo_avatar.dart';
 import 'package:flutter/material.dart';
 
 class TodoTile extends StatelessWidget {

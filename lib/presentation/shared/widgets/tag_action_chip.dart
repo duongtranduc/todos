@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:deer/presentation/colorful_app.dart';
-import 'package:deer/presentation/shared/resources.dart';
+import 'package:beetask/presentation/colorful_app.dart';
+import 'package:beetask/presentation/shared/resources.dart';
 
 class TagActionChip extends StatefulWidget {
   final String title;

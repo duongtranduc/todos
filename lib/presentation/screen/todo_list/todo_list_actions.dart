@@ -1,4 +1,4 @@
-import 'package:deer/domain/entity/todo_entity.dart';
+import 'package:beetask/domain/entity/todo_entity.dart';
 import 'package:flutter/foundation.dart';
 
 class PerformOnTodo {

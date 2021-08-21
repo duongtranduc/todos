@@ -1,5 +1,5 @@
-import 'package:deer/domain/entity/bullet_entity.dart';
-import 'package:deer/presentation/colorful_app.dart';
+import 'package:beetask/domain/entity/bullet_entity.dart';
+import 'package:beetask/presentation/colorful_app.dart';
 import 'package:flutter/material.dart';
 import 'package:link_text/link_text.dart';
 

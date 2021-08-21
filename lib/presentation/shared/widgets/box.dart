@@ -1,4 +1,4 @@
-import 'package:deer/presentation/shared/resources.dart';
+import 'package:beetask/presentation/shared/resources.dart';
 import 'package:flutter/material.dart';
 
 class BottomBox extends StatelessWidget {

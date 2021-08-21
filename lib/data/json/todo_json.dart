@@ -1,6 +1,6 @@
-import 'package:deer/data/json/bullet_json.dart';
-import 'package:deer/domain/entity/todo_entity.dart';
-import 'package:deer/utils/string_utils.dart';
+import 'package:beetask/data/json/bullet_json.dart';
+import 'package:beetask/domain/entity/todo_entity.dart';
+import 'package:beetask/utils/string_utils.dart';
 import 'package:flutter/foundation.dart';
 
 class TodoJson {

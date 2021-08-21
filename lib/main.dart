@@ -1,5 +1,5 @@
-import 'package:deer/dependencies.dart';
-import 'package:deer/presentation/app.dart';
+import 'package:beetask/dependencies.dart';
+import 'package:beetask/presentation/app.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';

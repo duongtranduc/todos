@@ -1,6 +1,6 @@
-import 'package:deer/data/repository/todo_repository.dart';
-import 'package:deer/domain/entity/todo_entity.dart';
-import 'package:deer/domain/interactor/task.dart';
+import 'package:beetask/data/repository/todo_repository.dart';
+import 'package:beetask/domain/entity/todo_entity.dart';
+import 'package:beetask/domain/interactor/task.dart';
 import 'package:flutter/foundation.dart';
 import 'package:rxdart/rxdart.dart';
 

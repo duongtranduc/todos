@@ -1,10 +1,10 @@
 import 'dart:convert';
 
 import 'package:built_collection/built_collection.dart';
-import 'package:deer/data/dao/in_memory.dart';
-import 'package:deer/data/json/todo_json.dart';
-import 'package:deer/data/mapper/todo_mapper.dart';
-import 'package:deer/domain/entity/todo_entity.dart';
+import 'package:beetask/data/dao/in_memory.dart';
+import 'package:beetask/data/json/todo_json.dart';
+import 'package:beetask/data/mapper/todo_mapper.dart';
+import 'package:beetask/domain/entity/todo_entity.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class TodoDao {

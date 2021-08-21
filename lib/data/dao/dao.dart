@@ -1,4 +1,4 @@
-import 'package:deer/data/dao/todo_dao.dart';
+import 'package:beetask/data/dao/todo_dao.dart';
 
 class Dao {
   final TodoDao todoDao;

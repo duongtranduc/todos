@@ -1,15 +1,15 @@
-import 'package:deer/presentation/app.dart';
-import 'package:deer/presentation/colorful_app.dart';
-import 'package:deer/presentation/screen/calendar/calendar_screen.dart';
-import 'package:deer/presentation/screen/home/home_state.dart';
-import 'package:deer/presentation/screen/privacy.dart';
-import 'package:deer/presentation/screen/todo_detail/todo_detail_screen.dart';
-import 'package:deer/presentation/screen/todo_list/todo_list_screen.dart';
-import 'package:deer/presentation/shared/resources.dart';
-import 'package:deer/presentation/shared/widgets/box.dart';
-import 'package:deer/presentation/shared/widgets/buttons.dart';
-import 'package:deer/presentation/shared/widgets/dialogs.dart';
-import 'package:deer/utils/string_utils.dart';
+import 'package:beetask/presentation/app.dart';
+import 'package:beetask/presentation/colorful_app.dart';
+import 'package:beetask/presentation/screen/calendar/calendar_screen.dart';
+import 'package:beetask/presentation/screen/home/home_state.dart';
+import 'package:beetask/presentation/screen/privacy.dart';
+import 'package:beetask/presentation/screen/todo_detail/todo_detail_screen.dart';
+import 'package:beetask/presentation/screen/todo_list/todo_list_screen.dart';
+import 'package:beetask/presentation/shared/resources.dart';
+import 'package:beetask/presentation/shared/widgets/box.dart';
+import 'package:beetask/presentation/shared/widgets/buttons.dart';
+import 'package:beetask/presentation/shared/widgets/dialogs.dart';
+import 'package:beetask/utils/string_utils.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
@@ -21,9 +21,9 @@ import 'home_actions.dart';
 import 'home_bloc.dart';
 
 const List<_MenuPage> _menuPages = [
-  _MenuPage(title: 'Calendar', description: 'Quickly preview and prepare your schedule', icon: Icons.event),
-  _MenuPage(title: 'All Todos', description: 'Display all active Todos', icon: Icons.list),
-  _MenuPage(title: 'Settings', description: 'Customize Deer to your liking', icon: Icons.settings),
+  _MenuPage(title: 'Calendar', description: 'View tasks by Calendar', icon: Icons.event_note),
+  _MenuPage(title: 'All Todos', description: 'Display all tasks', icon: Icons.list_alt),
+  _MenuPage(title: 'Settings', description: 'Change theme color', icon: Icons.color_lens),
 ];
 
 class HomeScreen extends StatefulWidget {
@@ -310,16 +310,16 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget _buildFooter() {
     final footerStyle = TextStyle().copyWith(fontSize: 12.0);
     return GestureDetector(
-      onTap: _showPrivacyPolicyDialog,
+      // onTap: _showPrivacyPolicyDialog,
       child: ShadedBox(
         padding: const EdgeInsets.all(8.0),
         child: Column(
           mainAxisSize: MainAxisSize.min,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
-            Text('Made by WozAppz 2018-2019', style: footerStyle),
+            Text('(c) Apollo Planet LLC', style: footerStyle),
             const SizedBox(height: 3.0),
-            Text('Privacy Policy', style: footerStyle),
+            // Text('Privacy Policy', style: footerStyle),
           ],
         ),
       ),

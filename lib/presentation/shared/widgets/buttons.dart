@@ -1,5 +1,5 @@
-import 'package:deer/presentation/colorful_app.dart';
-import 'package:deer/presentation/shared/widgets/box.dart';
+import 'package:beetask/presentation/colorful_app.dart';
+import 'package:beetask/presentation/shared/widgets/box.dart';
 import 'package:flutter/material.dart';
 import 'package:tuple/tuple.dart';
 

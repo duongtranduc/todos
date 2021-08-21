@@ -1,4 +1,4 @@
-import 'package:deer/presentation/colorful_app.dart';
+import 'package:beetask/presentation/colorful_app.dart';
 import 'package:flutter/material.dart';
 
 Widget buildCentralLabel({String text, BuildContext context}) {

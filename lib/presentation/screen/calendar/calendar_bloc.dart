@@ -2,10 +2,10 @@ import 'dart:async';
 
 import 'package:built_collection/built_collection.dart';
 import 'package:collection/collection.dart';
-import 'package:deer/domain/entity/todo_entity.dart';
-import 'package:deer/presentation/app.dart';
-import 'package:deer/utils/date_utils.dart';
-import 'package:deer/utils/string_utils.dart';
+import 'package:beetask/domain/entity/todo_entity.dart';
+import 'package:beetask/presentation/app.dart';
+import 'package:beetask/utils/date_utils.dart';
+import 'package:beetask/utils/string_utils.dart';
 import 'package:rxdart/rxdart.dart';
 
 import 'calendar_actions.dart';

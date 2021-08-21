@@ -1,9 +1,9 @@
 import 'dart:async';
 
 import 'package:built_collection/built_collection.dart';
-import 'package:deer/domain/entity/todo_entity.dart';
-import 'package:deer/domain/interactor/task.dart';
-import 'package:deer/presentation/app.dart';
+import 'package:beetask/domain/entity/todo_entity.dart';
+import 'package:beetask/domain/interactor/task.dart';
+import 'package:beetask/presentation/app.dart';
 import 'package:rxdart/rxdart.dart';
 
 import 'archive_list_actions.dart';

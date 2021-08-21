@@ -1,12 +1,12 @@
-import 'package:deer/domain/entity/todo_entity.dart';
-import 'package:deer/domain/interactor/task.dart';
-import 'package:deer/presentation/colorful_app.dart';
-import 'package:deer/presentation/screen/archive_list/archive_list_actions.dart';
-import 'package:deer/presentation/screen/todo_detail/todo_detail_screen.dart';
-import 'package:deer/presentation/shared/widgets/buttons.dart';
-import 'package:deer/presentation/shared/widgets/dialogs.dart';
-import 'package:deer/presentation/shared/widgets/label.dart';
-import 'package:deer/presentation/shared/widgets/todo_tile.dart';
+import 'package:beetask/domain/entity/todo_entity.dart';
+import 'package:beetask/domain/interactor/task.dart';
+import 'package:beetask/presentation/colorful_app.dart';
+import 'package:beetask/presentation/screen/archive_list/archive_list_actions.dart';
+import 'package:beetask/presentation/screen/todo_detail/todo_detail_screen.dart';
+import 'package:beetask/presentation/shared/widgets/buttons.dart';
+import 'package:beetask/presentation/shared/widgets/dialogs.dart';
+import 'package:beetask/presentation/shared/widgets/label.dart';
+import 'package:beetask/presentation/shared/widgets/todo_tile.dart';
 import 'package:flutter/material.dart';
 
 import 'archive_list_bloc.dart';

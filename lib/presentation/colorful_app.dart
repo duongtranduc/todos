@@ -1,5 +1,5 @@
-import 'package:deer/presentation/shared/resources.dart';
-import 'package:deer/utils/string_utils.dart';
+import 'package:beetask/presentation/shared/resources.dart';
+import 'package:beetask/utils/string_utils.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
