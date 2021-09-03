@@ -228,7 +228,7 @@ class _CalendarScreenState extends State<CalendarScreen> {
                 right: 0,
                 child: Text(
                   DateFormatter.formatFull(state.selectedDate),
-                  style: TextStyle().copyWith(fontSize: 16.0),
+                  style: TextStyle().copyWith(fontSize: 14.0),
                   textAlign: TextAlign.center,
                 ),
               ),
@@ -284,7 +284,7 @@ class _CalendarScreenState extends State<CalendarScreen> {
     } else {
       children.add(
         Expanded(
-          child: state.activeTodos.length == 0 ? _buildPlaceholder('Todo list is empty!') : _buildActiveList(state),
+          child: state.activeTodos.length == 0 ? _buildPlaceholder('Job list is empty!') : _buildActiveList(state),
         ),
       );
     }

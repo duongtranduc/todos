@@ -98,7 +98,7 @@ class _TodoListScreenState extends State<TodoListScreen> {
     return Scaffold(
       appBar: AppBar(
         iconTheme: IconThemeData(color: ColorfulApp.of(context).colors.dark),
-        title: Text('All Todos'),
+        title: Text('All Jobs'),
         centerTitle: true,
         bottom: _buildFilter(state),
         actions: <Widget>[
@@ -162,7 +162,7 @@ class _TodoListScreenState extends State<TodoListScreen> {
             child: state.todos.length == 0
                 ? Center(
                     child: SingleChildScrollView(
-                      child: buildCentralLabel(text: 'Todo list is empty!', context: context),
+                      child: buildCentralLabel(text: 'Job list is empty!', context: context),
                     ),
                   )
                 : ListView.builder(

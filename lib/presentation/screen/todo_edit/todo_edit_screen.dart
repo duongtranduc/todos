@@ -205,7 +205,7 @@ class _TodoEditScreenState extends State<TodoEditScreen> {
         appBar: AppBar(
           iconTheme: IconThemeData(color: ColorfulApp.of(context).colors.bleak),
           centerTitle: true,
-          title: Text('Edit Todo'),
+          title: Text('Edit Job'),
         ),
         body: _buildBody(state),
       ),
@@ -250,7 +250,7 @@ class _TodoEditScreenState extends State<TodoEditScreen> {
           maxLengthEnforced: true,
           maxLines: null,
           fontSize: 20.0,
-          hint: state.todoNameHasError ? 'Name can\'t be empty' : 'Todo\'s name',
+          hint: state.todoNameHasError ? 'Name can\'t be empty' : 'Job\'s name',
           onChanged: (value) => _bloc.actions.add(UpdateField(key: FieldKey.name, value: value)),
         ),
       ),
@@ -274,7 +274,7 @@ class _TodoEditScreenState extends State<TodoEditScreen> {
               maxLines: null,
               inputAction: TextInputAction.newline,
               value: state.todo.description,
-              hint: 'Todo\'s description',
+              hint: 'Job\'s description',
               onChanged: (value) => _bloc.actions.add(UpdateField(key: FieldKey.description, value: value)),
             ),
           ),
@@ -321,7 +321,7 @@ class _TodoEditScreenState extends State<TodoEditScreen> {
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
           Text(
-            'Bullet points',
+            'Subtasks (enter to add)',
             style: TextStyle().copyWith(color: ColorfulApp.of(context).colors.bleak, fontSize: 12.0),
           ),
           Padding(

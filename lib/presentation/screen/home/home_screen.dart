@@ -21,9 +21,9 @@ import 'home_actions.dart';
 import 'home_bloc.dart';
 
 const List<_MenuPage> _menuPages = [
-  _MenuPage(title: 'Calendar', description: 'View tasks by Calendar', icon: Icons.event_note),
-  _MenuPage(title: 'All Todos', description: 'Display all tasks', icon: Icons.list_alt),
-  _MenuPage(title: 'Settings', description: 'Change theme color', icon: Icons.color_lens),
+  _MenuPage(title: 'Calendar', description: 'View jobs by Calendar', icon: Icons.event_note),
+  _MenuPage(title: 'All Jobs', description: 'Display all jobs', icon: Icons.list_alt),
+  _MenuPage(title: 'Theme color', description: 'Change theme color', icon: Icons.color_lens),
 ];
 
 class HomeScreen extends StatefulWidget {

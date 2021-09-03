@@ -106,7 +106,7 @@ class _TodoDetailScreenState extends State<TodoDetailScreen> {
       appBar: AppBar(
         iconTheme: IconThemeData(color: ColorfulApp.of(context).colors.bleak),
         centerTitle: true,
-        title: Text('Todo\'s details'),
+        title: Text('Job\'s details'),
       ),
       body: _buildBody(state),
     );
@@ -240,7 +240,7 @@ class _TodoDetailScreenState extends State<TodoDetailScreen> {
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
           Text(
-            'Bullet points:',
+            'Subtasks:',
             style: TextStyle().copyWith(fontSize: 12.0, color: ColorfulApp.of(context).colors.bleak),
           ),
           const SizedBox(height: 8.0),
@@ -395,7 +395,7 @@ class _TodoDetailScreenState extends State<TodoDetailScreen> {
         const SizedBox(height: 24.0),
         Center(
           child: Text(
-            'Edit this Todo to add more sections',
+            'Edit this Job to add more sections',
             style: TextStyle().copyWith(
               color: ColorfulApp.of(context).colors.bleak,
               fontSize: 14.0,

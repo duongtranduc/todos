@@ -20,7 +20,7 @@ class App extends StatelessWidget {
     _notificationManager = notificationManager;
   }
 
-  final String _title = 'Bee Tasks';
+  final String _title = 'Bee Assistant';
 
   // This widget is the root of your application.
   @override
