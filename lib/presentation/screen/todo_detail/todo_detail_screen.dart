@@ -395,7 +395,7 @@ class _TodoDetailScreenState extends State<TodoDetailScreen> {
         const SizedBox(height: 24.0),
         Center(
           child: Text(
-            'Edit this Job to add more sections',
+            'Edit this job to add more sections',
             style: TextStyle().copyWith(
               color: ColorfulApp.of(context).colors.bleak,
               fontSize: 14.0,

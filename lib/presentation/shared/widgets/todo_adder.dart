@@ -240,7 +240,7 @@ class _TodoAdderState extends State<TodoAdder> {
               style: TextStyle().copyWith(fontSize: 16.0, color: AppColors.black1),
               decoration: InputDecoration.collapsed(
                 border: UnderlineInputBorder(),
-                hintText: widget.showError ? 'Name can\'t be empty' : 'New Job',
+                hintText: widget.showError ? 'Name can\'t be empty' : 'New job',
                 hintStyle: TextStyle().copyWith(
                   color: widget.showError ? ColorfulApp.of(context).colors.dark : ColorfulApp.of(context).colors.medium,
                 ),
