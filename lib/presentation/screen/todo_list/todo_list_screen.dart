@@ -114,7 +114,7 @@ class _TodoListScreenState extends State<TodoListScreen> {
         ),
         actions: <Widget>[
           IconButton(
-            icon: Icon(Icons.trash),
+            icon: Icon(Icons.delete_sweep),
             tooltip: 'Archive',
             onPressed: _showArchive,
           ),
