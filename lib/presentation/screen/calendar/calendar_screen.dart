@@ -17,6 +17,7 @@ import 'package:beetask/utils/notification_utils.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:table_calendar/table_calendar.dart';
+import 'package:beetask/presentation/screen/todo_list/todo_list_screen.dart';
 
 class CalendarScreen extends StatefulWidget {
   @override
@@ -60,6 +61,12 @@ class _CalendarScreenState extends State<CalendarScreen> {
   void _showDetails(TodoEntity todo, {bool editable = true}) {
     Navigator.of(context).push(MaterialPageRoute(
       builder: (context) => TodoDetailScreen(todo: todo, editable: editable),
+    ));
+  }
+
+  void _showTodoList() {
+    Navigator.of(context).push(MaterialPageRoute(
+      builder: (context) => TodoListScreen(),
     ));
   }
 
@@ -149,6 +156,10 @@ class _CalendarScreenState extends State<CalendarScreen> {
         iconTheme: IconThemeData(color: ColorfulApp.of(context).colors.dark),
         title: Text('Calendar View'),
         centerTitle: true,
+        leading: IconButton(
+          onPressed: _showTodoList,
+          icon: Icon(Icons.list_alt),
+        ),
       ),
       body: SafeArea(top: true, bottom: true, child: _buildBody(state)),
     );

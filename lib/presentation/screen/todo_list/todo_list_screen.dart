@@ -13,6 +13,7 @@ import 'package:beetask/presentation/shared/widgets/todo_tile.dart';
 import 'package:beetask/utils/notification_utils.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
+import 'package:beetask/presentation/screen/calendar/calendar_screen.dart';
 
 import 'todo_list_bloc.dart';
 import 'todo_list_state.dart';
@@ -82,6 +83,12 @@ class _TodoListScreenState extends State<TodoListScreen> {
     ));
   }
 
+  void _showCalendarList() {
+    Navigator.of(context).push(MaterialPageRoute(
+      builder: (context) => CalendarScreen(),
+    ));
+  }
+
   @override
   Widget build(BuildContext context) {
     return StreamBuilder(
@@ -101,9 +108,13 @@ class _TodoListScreenState extends State<TodoListScreen> {
         title: Text('All Jobs'),
         centerTitle: true,
         bottom: _buildFilter(state),
+        leading: IconButton(
+          onPressed: _showCalendarList,
+          icon: Icon(Icons.event_note),
+        ),
         actions: <Widget>[
           IconButton(
-            icon: Icon(Icons.done_all),
+            icon: Icon(Icons.archive),
             tooltip: 'Archive',
             onPressed: _showArchive,
           ),

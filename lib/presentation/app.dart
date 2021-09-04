@@ -1,6 +1,7 @@
 import 'package:beetask/dependencies.dart';
 import 'package:beetask/presentation/colorful_app.dart';
-import 'package:beetask/presentation/screen/home/home_screen.dart';
+//import 'package:beetask/presentation/screen/home/home_screen.dart';
+import 'package:beetask/presentation/screen/calendar/calendar_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 
@@ -31,7 +32,7 @@ class App extends StatelessWidget {
           title: _title,
           theme: theme,
           // debugShowCheckedModeBanner: false, // removes debug ribbon
-          home: HomeScreen(title: _title),
+          home: CalendarScreen(),//HomeScreen(title: _title),
         );
       },
     );

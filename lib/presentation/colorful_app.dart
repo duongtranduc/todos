@@ -41,7 +41,7 @@ class ColorfulAppState extends State<ColorfulApp> {
     super.initState();
 
     // Hack, needed since _loadColorTheme is async
-    colors = ColorThemeData.standard();
+    colors = ColorThemeData.golden();
     _loadColorTheme();
   }
 
