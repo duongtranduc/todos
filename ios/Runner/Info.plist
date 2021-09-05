@@ -42,6 +42,8 @@
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>To allow users to load photos from phone's album to add into the job description</string>
+	<string>To allow users to load photos from phone's album to add into the job detail</string>
+	<key>NSCameraUsageDescription</key>
+	<string>To allow users to take photos to add into the job detail</string>
 </dict>
 </plist>
